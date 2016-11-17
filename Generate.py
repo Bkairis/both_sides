@@ -3,7 +3,7 @@
 
 # my comments are more important--i mean it this time
 
-def trumpSentence(text):
+def generate(text):
     import markovify
     with open(text) as f:
         text = f.read()
