@@ -2,16 +2,17 @@ def compare_pronouns(text1, text2):#function calls the previously defined functi
    
     import re
     
-    def convert(textfile): #this takes an argument as a textfile and opens it. Any time the function is called, it treats the text file as an object (which can then be named within the function depending on its purpose)
+    def convert(textfile): #takes an argument as a textfile and opens it. Any time the function is called, it treats the text file as an object (which can then be named within the function depending on its purpose)
         source = open(textfile)
         return source.read()
     
-    def wordcount(text): #this function finds the total number of words in the a text
+    def wordcount(text): #finds the total number of words in the a text
         text = convert(text)
         words = re.findall(' [A-Za-z]+', text)
         return len(words)
     
-    def first_person_singular(text): #I, me, my, mine
+    def first_person_singular(text): #finds the total number of first person singular pronouns
+      #I, me, my, mine
         text = convert(text)
         fps = re.findall(' I ', text) #I is never lowercase, so no need to include
         fps1 = re.findall('"I ', text) #dialogue
@@ -22,7 +23,8 @@ def compare_pronouns(text1, text2):#function calls the previously defined functi
         fps6 = re.findall(' mine ', text) #lowercase, doesn't begine sentences so no need to include uppercase or dialogue. 
         return (len(fps)) + (len(fps1)) + (len(fps2)) + (len(fps3)) + (len(fps4)) + (len(fps5)) + (len(fps6))
     
-    def first_person_plural(text):  #we, us, our, ours
+    def first_person_plural(text):  #finds the total number of first person plural pronouns
+         #we, us, our, ours
         text = convert(text)
         fpp = re.findall(' we ', text) #lowercase
         fpp1 = re.findall(' We ', text) #uppercase
@@ -36,7 +38,8 @@ def compare_pronouns(text1, text2):#function calls the previously defined functi
         fpp9 = re.findall('"Ours ', text) #dialogue
         return (len(fpp)) + (len(fpp1)) + (len(fpp2)) + (len(fpp3)) + (len(fpp4)) + (len(fpp5)) + (len(fpp6)) + (len(fpp7)) + (len(fpp8)) + (len(fpp9))
     
-    def third_person_plural(text):   #they, them, their, theirs, they're
+    def third_person_plural(text):   #finds the total number of third person plural pronouns
+         #they, them, their, theirs, they're
         text = convert(text)
         tpp = re.findall(' they ', text) #lowercase
         tpp1 = re.findall( ' They ', text) #uppercase
