@@ -2,7 +2,7 @@ def compare_pronouns(text1, text2):#function calls the previously defined functi
    
     import re
     
-    def convert(textfile): #takes an argument as a textfile and opens it. Any time the function is called, it treats the text file as an object (which can then be named within the function depending on its purpose)
+    def convert(textfile): #takes a textfile as an argument and opens it. Any time the function is called, it treats the text file as an object (which can then be named within the function depending on its purpose)
         source = open(textfile)
         return source.read()
     
