@@ -1,14 +1,20 @@
 
 # coding: utf-8
 
-# my comments are more important--i mean it this time
+def generateSentence(text):   #generalized to accept any .txt file 
+    import markovify  #imports Markov text chain generator 
+    with open(text) as f:  
+        text = f.read()  #converts .txt file to an object
+    text_model = markovify.Text(text) #trains markovify using the text object
+    return(text_model.make_sentence()) #returns a single newly-generated sentence
 
-def generate(text):
+
+def generateSpeech(text): 
     import markovify
-    with open(text) as f:
+    with open(text) as f: 
         text = f.read()
-    text_model = markovify.Text(text)
-    return(text_model.make_sentence())
+    for i in range(5):   #generates a 5 sentence speech
+        print(text_model.make_sentence())
 
 
 
