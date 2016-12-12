@@ -1,8 +1,10 @@
 # both_sides
 Final Project for Writing Machines (Fall 2016)
 
-adding text
+*Purpose of code* 
 
-More text
+Analyze 
 
-ALL THE TEXT
+Classify 
+
+Generate 
