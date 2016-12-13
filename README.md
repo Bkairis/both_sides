@@ -1,9 +1,9 @@
-# both_sides
+ both_sides
 Final Project for Writing Machines (Fall 2016)
 
 *Purpose of the Code* 
 
-Our code comes in three bundles aimed to analyze, classify, and generate "Trumpian" and "Hilliarian" speeches. Upon beginning this project, we wondered whether we could find and, if so, measure distinctions in rhetoric, diction, or syntax between each candidate's respective nomination acceptance speeches. We were also curious whether we could use such data to discuss how each candidate's ideological differences are reflected in his or her delivery. By connecting how each candidate argues with the argumentative stances each candidate proposes, we can better examine how each delivery differs in content and structure. In the analyze and generate functions, we encourage users to interact by uploading texts of their own choosing. Users can analyze pronoun usage of any two texts in compare_pronouns() and can generate sentences and groups of sentences from any two speeches in generateSentence() and generateSpeech(), respectively. 
+Our code comes in three bundles aimed to analyze, classify, and generate "Trumpian" and "Hilliarian" speeches. Upon beginning this project, we wondered whether we could find and, if so, measure distinctions in rhetoric, diction, or syntax between each candidate's respective nomination acceptance speeches. We were also curious whether we could use such data to discuss how each candidate's ideological differences are reflected in his or her delivery. By connecting how each candidate argues with the argumentative stances each candidate proposes, we can better examine how each delivery differs in content and structure. In the analyze and generate functions, we encourage users to interact by uploading texts of their own choosing. Users can analyze pronoun usage of any two texts in compare_pronouns() and can generate sentences and groups of sentences from any existing text in generateSentence() and generateSpeech(), respectively. 
 
 *Analyze* 
 
