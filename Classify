@@ -1,4 +1,4 @@
->>> example = [
+>>> example = [  #this first section trains the program to classify between Clinton and Trump based on the lines below
 ...     ('Thank you!', 'Clinton'),
 ...     ('Thank you all very much.', 'Clinton'),
 ...     ('Thank you all for that amazing welcome.', 'Clinton'),
