@@ -12,7 +12,7 @@ This function, called compare_pronouns(), uses regex to find and calculate the p
 
 *Classify* 
 
-This function imports a Naive Bayes Classifier from the TextBlob library to classify any sentence given by the user as either more Hillarian or Trumpian in nature. It was trained using sentences from Clinton and Trump's Presidential Nomination Acceptance Speeches. Using cl.classify(), users submit their chosen sentence as a string, and the classifier returns either "Clinton" or "Trump" based on salient features of the text that the program gathers through machine learning. 
+This function imports a Naive Bayes Classifier from the TextBlob library to classify any sentence given by the user as either more Hillarian or Trumpian in nature. It was trained using sentences from Clinton and Trump's Presidential Nomination Acceptance Speeches. Using cl.classify(), users submit their chosen sentence as a string, and the classifier returns either "Clinton" or "Trump" based on salient features of the text that the program determines through machine learning. 
 
 *Generate* 
 
