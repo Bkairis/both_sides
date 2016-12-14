@@ -20,7 +20,7 @@ This section includes two seperate functions, generateSentence() and generateSpe
 
 *Sample Texts*
 
-In addition to the functions above, a sample .txt file for both Clinton and Trump's Presidential Nomination Acceptance speeches have been attached.
+In addition to the functions above, sample texts for both Clinton and Trump's Presidential Nomination Acceptance speeches have been attached so that they might be used with the Generate code. Users should save eace speech as a .txt file and upload it to python notebook. 
 
 
 
