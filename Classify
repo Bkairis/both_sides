@@ -659,4 +659,4 @@
 ... ]
 
 >>> from textblob.classifiers import NaiveBayesClassifier  #new line
->>> cl = NaiveBayesClassifier(example)  #part of same coded line as above line
+>>> cl = NaiveBayesClassifier(example)  #part of same coded line as above line 
