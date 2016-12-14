@@ -1,4 +1,4 @@
- #both_sides
+ <H2>both_sides</H2>
  
 Final Project for Writing Machines (Fall 2016)
 
